@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "VerPedidosPorUsuario";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h2>Ver Pedidos por Usuario</h2>
+
+@using (Html.BeginForm("VerPedidosPorUsuario", "Admin", FormMethod.Post))
+{
+    <label for="userId">ID del usuario:</label>
+    <input type="text" name="userId" id="userId" />
+    <input type="submit" value="Ver pedidos" />
+}

@@ -1,0 +1,29 @@
+﻿
+
+@model List<Producto3.Models.usuarios>
+@{
+    ViewBag.Title = "Listado de Usuarios";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h2>Listado de Usuarios</h2>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Nombre Completo</th>
+        <th>Correo</th>
+        <th>Contraseña</th>
+        <th>Rol</th>
+    </tr>
+    @foreach (var usuario in Model)
+    {
+        <tr>
+            <td>@usuario.id</td>
+            <td>@usuario.nomCompleto</td>
+            <td>@usuario.correo</td>
+            <td>@usuario.contra</td>
+            <td>@usuario.rol</td>
+        </tr>
+    }
+</table>

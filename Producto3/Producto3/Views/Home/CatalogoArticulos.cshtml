@@ -1,0 +1,38 @@
+﻿@model List<Producto3.Models.productos>
+
+@{
+    ViewBag.Title = "CatalogoArticulos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center mt-4">CAMISETAS DEPORTIVAS</h2>
+<br>
+<div class="container">
+    <div class="row">
+        @foreach (var producto in Model)
+        {
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="@Url.Content(producto.imagen)" class="card-img-top" alt="Producto">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@producto.nombre</h5>
+                        <p class="card-text">@producto.precio</p>
+                        <div hidden>
+                            <p>@producto.descripcion</p>
+                        </div>
+                        <form method="post" action="@Url.Action("AgregarAlCarrito", "Home")">
+                            <label for="cantidad">Cantidad:</label>
+                            <input type="number" id="cantidad" name="cantidad" class="form-control mb-2" min="1" value="1" required>
+                            <input type="hidden" name="idArticulo" value="@producto.idArt">
+                            <input type="hidden" name="nombre" value="@producto.nombre">
+                            <input type="hidden" name="precio" value="@producto.precio">
+                            <button type="submit" class="btn btn-primary">Agregar al carrito</button>
+                            @Html.ActionLink("Ver detalles", "Detalles", new { id = producto.idArt }, new { @class = "btn btn-primary" })
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

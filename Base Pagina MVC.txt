@@ -1,0 +1,63 @@
+BASEEEEEEEEE
+
+Create Database PantherShop
+Go
+Use PantherShop   
+Go
+
+CREATE TABLE productos (
+    idArt INT PRIMARY KEY IDENTITY(1,1),
+    nombre NVARCHAR(80),
+    descripcion NVARCHAR(100),
+    precio DECIMAL,
+    imagen NVARCHAR(255));
+GO
+
+CREATE TABLE usuarios (
+    id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    nomCompleto NVARCHAR(40),
+    correo NVARCHAR(35),
+    contra NVARCHAR(25),
+    rol NVARCHAR(50)
+);
+Go
+
+CREATE TABLE pedidos (
+    idPedido INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    idArt INT NOT NULL,
+    nombre NVARCHAR(40),
+    cantidad INT,
+    precio DECIMAL,
+    totalGeneral DECIMAL,
+    fechaCompra DATE,
+    idUsuario int
+);
+Go
+	
+CREATE TABLE carrito (
+    idArt INT,
+    nombre VARCHAR(40),
+    cantidad INT,
+    precio DECIMAL,
+    total DECIMAL,
+    PRIMARY KEY (idArt)
+);
+Go
+
+INSERT INTO productos (nombre, descripcion, precio, foto) VALUES
+('Camiseta RedBull Liepzing', 'Camiseta de local del RedBull Liepzing para la temporada 2023/2024.', 649.99, 'img/Productos/img1.jpeg'),
+('Camiseta Los Angeles', 'Camiseta de visitante de Los Angeles para la temporada 2023/2024.', 559.99, 'img/Productos/img2.jpeg'),
+('Camiseta Paris Saint Germain', 'Camiseta de visitante del Paris Saint Germain para la temporada 2023/2024.', 439.99, 'img/Productos/img3.jpeg'),
+('Camiseta Borussia Dormount', 'Camiseta de visitante del Borussia Dormount para la temporada 2023/2024.', 369.99, 'img/Productos/img4.jpeg'),
+('Camiseta  Paris Saint Germain', 'Camiseta de local del Chelsea para la temporada 2023/2024.', 450.99, 'img/Productos/img5.jpeg'),
+('Camiseta Paris Saint-Germain', 'Camiseta de local del Paris Saint-Germain para la temporada 2023/2024.', 650.99, 'img/Productos/img6.jpeg'),
+('Camiseta Napoli', 'Camiseta de local del Napoli para la temporada 2023/2024.', 500.99, 'img/Productos/img7.jpeg'),
+
+INSERT INTO usuarios (nomCompleto, correo, contra, rol) VALUES
+('Jose Eduardo Soriano Vazquez', 'ssjeduardo49@gmail.com', 'admin1', 'Administrador'),
+('Julio Cesar Flores Avila', 'julito17@gmail.com', 'Iacho17', 'Comprador'),
+('Luis Fernando Carrillo Yarce', 'carre22@gmail.com', 'brenta1', 'Comprador'),
+('Alison Espinosa Prado', 'ali21C@gmail.com', 'admin2', 'Administrador'),
+('Diego Perez Hernandez', 'keydeg@gmail.com', 'phoenixkeydeg21', 'Comprador');
+Go
+

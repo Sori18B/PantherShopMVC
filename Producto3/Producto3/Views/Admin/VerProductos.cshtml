@@ -1,0 +1,24 @@
+﻿
+@model List<Producto3.Models.productos>
+@{
+    ViewBag.Title = "Ver Productos";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h2>Listado de Productos</h2>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Precio</th>
+    </tr>
+    @foreach (var producto in Model)
+    {
+        <tr>
+            <td>@producto.idArt</td>
+            <td>@producto.nombre</td>
+            <td>@producto.precio</td>
+        </tr>
+    }
+</table>

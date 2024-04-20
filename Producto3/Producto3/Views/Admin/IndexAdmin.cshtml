@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "IndexAdmin";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+
+<div class="col-12">
+    <header class="container-fluid ">
+        <h1 class=" fs-2 text-primary text-center">BIENVENIDO A PANTHER SHOP</h1>
+        <p class="fs-5  border-bottom border-2 text-center" id="eslogan">Obtén un equipamiento de campeones comprando en nuestra tienda deportiva</p>
+    </header>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card border-0">
+                    <div class="card mb-3 border-0" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="@Url.Content("~/img/playera.png")" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Playeras de gran calidad</h5>
+                                    <p class="card-text">Nuestras playeras son fabricadas de la mas alta calidad.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Se puede incluir el estampado</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card border-0">
+                    <div class="card mb-3 border-0" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="@Url.Content("~/img/garantia.png")" class="img-fluid rounded-start" alt="garantia">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Incluye garantía</h5>
+                                    <p class="card-text">Garantizamos la durabilidad de todos nuestros productos.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Cuentan con 2 años de garantia</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="kodfun-galeri">
+        <div style="background-image: url('@Url.Content("~/img/messi.jpg")'); "></div>
+        <div style="background-image: url('@Url.Content("~/img/mbape.jpg")'); "></div>
+        <div style="background-image: url('@Url.Content("~/img/ney.jpg")'); "></div>
+        <div style="background-image: url('@Url.Content("~/img/hakimi.jpg")'); "></div>
+    </div>
+
+    <style>
+        .kodfun-galeri {
+            display: flex;
+            height: 20rem;
+            gap: 1rem;
+        }
+
+            .kodfun-galeri > div {
+                flex: 1;
+                border-radius: 1em;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+            }
+
+                .kodfun-galeri > div:hover {
+                    flex: 5;
+                }
+    </style>
+</div>

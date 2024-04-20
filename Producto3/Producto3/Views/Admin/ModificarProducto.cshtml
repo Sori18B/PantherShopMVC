@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "ModificarProducto";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h2>Modificar Producto</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        <label for="idArt">ID del producto a modificar:</label>
+        <input type="text" id="idArt" name="idArt" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="nuevoNombre">Nuevo nombre:</label>
+        <input type="text" id="nuevoNombre" name="nuevoNombre" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="nuevaDescripcion">Nueva descripción:</label>
+        <input type="text" id="nuevaDescripcion" name="nuevaDescripcion" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="nuevoPrecio">Nuevo precio:</label>
+        <input type="number" id="nuevoPrecio" name="nuevoPrecio" class="form-control" required>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Modificar</button>
+}
+

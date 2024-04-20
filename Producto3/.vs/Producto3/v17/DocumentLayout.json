@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|c:\\users\\ivan6\\source\\repos\\producto3\\producto3\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|solutionrelative:producto3\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|c:\\users\\ivan6\\source\\repos\\producto3\\producto3\\logica\\funccomprador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|solutionrelative:producto3\\logica\\funccomprador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|C:\\Users\\Ivan6\\source\\repos\\Producto3\\producto3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|solutionrelative:producto3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|c:\\users\\ivan6\\source\\repos\\producto3\\producto3\\logica\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|solutionrelative:producto3\\logica\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|c:\\users\\ivan6\\source\\repos\\producto3\\producto3\\logica\\sesiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|solutionrelative:producto3\\logica\\sesiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|C:\\Users\\Ivan6\\source\\repos\\Producto3\\producto3\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|solutionrelative:producto3\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|C:\\Users\\Ivan6\\source\\repos\\Producto3\\producto3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|solutionrelative:producto3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|c:\\users\\ivan6\\source\\repos\\producto3\\producto3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|solutionrelative:producto3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|C:\\Users\\Ivan6\\source\\repos\\Producto3\\producto3\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|solutionrelative:producto3\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|C:\\Users\\Ivan6\\source\\repos\\Producto3\\producto3\\logica\\filtros\\separarsesionesfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|solutionrelative:producto3\\logica\\filtros\\separarsesionesfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|C:\\Users\\Ivan6\\source\\repos\\Producto3\\producto3\\views\\admin\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC197C8E-3889-43CC-B5EE-663B2E82A41D}|Producto3\\Producto3.csproj|solutionrelative:producto3\\views\\admin\\indexadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IndexAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Views\\Admin\\IndexAdmin.cshtml",
+              "RelativeDocumentMoniker": "Producto3\\Views\\Admin\\IndexAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Views\\Admin\\IndexAdmin.cshtml",
+              "RelativeToolTip": "Producto3\\Views\\Admin\\IndexAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T16:29:08.484Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SepararSesionesFilterAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Logica\\Filtros\\SepararSesionesFilterAttribute.cs",
+              "RelativeDocumentMoniker": "Producto3\\Logica\\Filtros\\SepararSesionesFilterAttribute.cs",
+              "ToolTip": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Logica\\Filtros\\SepararSesionesFilterAttribute.cs",
+              "RelativeToolTip": "Producto3\\Logica\\Filtros\\SepararSesionesFilterAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T17:43:10.786Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Producto3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Producto3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T16:29:12.224Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Models\\usuarios.cs",
+              "RelativeDocumentMoniker": "Producto3\\Models\\usuarios.cs",
+              "ToolTip": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Models\\usuarios.cs",
+              "RelativeToolTip": "Producto3\\Models\\usuarios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T19:52:52.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "funcComprador.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Logica\\funcComprador.cs",
+              "RelativeDocumentMoniker": "Producto3\\Logica\\funcComprador.cs",
+              "ToolTip": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Logica\\funcComprador.cs",
+              "RelativeToolTip": "Producto3\\Logica\\funcComprador.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAYwDsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T19:50:05.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Datos.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Logica\\Datos.cs",
+              "RelativeDocumentMoniker": "Producto3\\Logica\\Datos.cs",
+              "ToolTip": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Logica\\Datos.cs",
+              "RelativeToolTip": "Producto3\\Logica\\Datos.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T19:42:44.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sesiones.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Logica\\Sesiones.cs",
+              "RelativeDocumentMoniker": "Producto3\\Logica\\Sesiones.cs",
+              "ToolTip": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Logica\\Sesiones.cs",
+              "RelativeToolTip": "Producto3\\Logica\\Sesiones.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T19:34:30.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Producto3\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Producto3\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwBQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T17:53:53.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Producto3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Producto3\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAIwHgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T17:46:25.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout2.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeDocumentMoniker": "Producto3\\Views\\Shared\\_Layout2.cshtml",
+              "ToolTip": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeToolTip": "Producto3\\Views\\Shared\\_Layout2.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T17:46:00.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Producto3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Ivan6\\source\\repos\\Producto3\\Producto3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Producto3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T17:35:23.428Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

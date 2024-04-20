@@ -1,0 +1,30 @@
+﻿@using Producto3.Models 
+
+@model List<ClientePorArticulo>
+
+@{
+    ViewBag.Title = "Listado de Clientes por Artículo";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h2>Listado de Clientes por Artículo</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre del Cliente</th>
+            <th>Cantidad</th>
+            <th>Fecha de Compra</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cliente in Model)
+        {
+            <tr>
+                <td>@cliente.NombreCliente</td>
+                <td>@cliente.Cantidad</td>
+                <td>@cliente.FechaCompra.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "ConfirmarEliminacion";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h2>Confirmar Eliminación</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        <label for="idArt">ID del producto a eliminar:</label>
+        <input type="text" id="idArt" name="idArt" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+}

@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "ClientesPorArticulo";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h2>Listado de clientes por artículo</h2>
+
+@using (Html.BeginForm("ClientesPorArticulo", "Admin", FormMethod.Post))
+{
+    <label for="idArticulo">ID del artículo:</label>
+    <input type="text" name="idArticulo" id="idArticulo" />
+    <input type="submit" value="Buscar clientes" />
+}

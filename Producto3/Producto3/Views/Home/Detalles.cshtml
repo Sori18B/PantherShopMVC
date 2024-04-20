@@ -1,0 +1,15 @@
+﻿@model Producto3.Models.productos
+
+@{
+    ViewBag.Title = "Detalles del Producto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Detalles del producto:</h3>
+
+<img src="@Url.Content(Model.imagen)" style="max-width: 200px; max-height: 200px;" class="img-fluid mb-3" alt="Producto">
+<h3>Id: @Model.idArt</h3>
+<h3>Nombre del producto: @Model.nombre</h3>
+<h3>Descripción: @Model.descripcion</h3>
+<h3>Precio: @Model.precio</h3>
+

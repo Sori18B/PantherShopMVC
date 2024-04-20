@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Funciones";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+@if (Session["AdministradorID"] != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre de la tarea</th>
+                <th>Enlace</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dar de alta un producto</td>
+                <td>@Html.ActionLink("AltaProducto", "AltaProducto", "Admin")</td>
+            </tr>
+            <tr>
+                <td>Ver productos</td>
+                <td>@Html.ActionLink("VerProductos", "VerProductos", "Admin")</td>
+            </tr>
+            <tr>
+                <td>Ver detalles de los productos</td>
+                <td>@Html.ActionLink("ListadoProductos", "ListadoProductos", "Admin")</td>
+            </tr>
+            <tr>
+                <td>Modificar productos por id</td>
+                <td>@Html.ActionLink("ModificarProducto", "ModificarProducto", "Admin")</td>
+            </tr>
+            <tr>
+                <td>Eliminar productos por id</td>
+                <td>@Html.ActionLink("ConfirmarEliminacion", "ConfirmarEliminacion", "Admin")</td>
+            </tr>
+            <tr>
+                <td>Listado de usuarios</td>
+                <td>@Html.ActionLink("ListadoUsuarios", "ListadoUsuarios", "Admin")</td>
+            </tr>
+            <tr>
+                <td>Ver pedidos por usuario</td>
+                <td>@Html.ActionLink("Ver pedidos", "VerPedidosPorUsuario", "Admin")</td>
+            </tr>
+            <tr>
+                <td>Listado de clientes que compraron un artículo</td>
+                <td>@Html.ActionLink("Clientes por Artículo", "ClientesPorArticulo", "Admin")</td> 
+            </tr>
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No tiene permisos para ver esta página. Por favor, inicie sesión.</p>
+}

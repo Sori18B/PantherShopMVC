@@ -1,0 +1,39 @@
+﻿@model List<Producto3.Models.carrito>
+@{
+    ViewBag.Title = "Carrito de Compras";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Aquí se muestran los artículos seleccionados:</h2>
+
+<div class="container">
+    <div class="row">
+        @foreach (var producto in Model)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h6>Detalles del producto agregado:</h6>
+                        <br />
+                        <h6 class="card-title">Nombre: @producto.nombre</h6>
+                        <h6 class="card-text">Cantidad elegida: @producto.cantidad</h6>
+                        <h6 class="card-text">Precio por unidad: @producto.precio</h6>
+                        <h6 class="card-text">Total de este artículo: $@producto.total </h6>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Total general: $@ViewBag.TotalGeneral</h3>
+            <form action="@Url.Action("RealizarCompra", "Home")" method="post">
+                <button type="submit" class="btn btn-primary">Realizar compra</button>
+            </form>
+        </div>
+    </div>
+</div>
+

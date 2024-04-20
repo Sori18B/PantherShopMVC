@@ -1,0 +1,39 @@
+﻿@model List<Producto3.Models.pedidos>
+
+@{
+    ViewBag.Title = "VerPedidos";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h2>Lista de Pedidos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID Pedido</th>
+            <th>ID Artículo</th>
+            <th>Nombre</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Total General</th>
+            <th>Fecha de Compra</th>
+            <th>ID Usuario</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pedido in Model)
+        {
+            <tr>
+                <td>@pedido.idPedido</td>
+                <td>@pedido.idArt</td>
+                <td>@pedido.nombre</td>
+                <td>@pedido.cantidad</td>
+                <td>@pedido.precio</td>
+                <td>@pedido.totalGeneral</td>
+                <td>@pedido.fechaCompra.ToShortDateString()</td>
+                <td>@pedido.idUsuario</td>
+            </tr>
+        }
+    </tbody>
+</table>
