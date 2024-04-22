@@ -1,4 +1,4 @@
-BASEEEEEEEEE
+Base de datos que usé en mi proyecto
 
 Create Database PantherShop
 Go
