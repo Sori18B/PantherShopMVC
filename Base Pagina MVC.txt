@@ -1,4 +1,4 @@
-Base de datos que usé en mi proyecto
+Base de datos que usé en mi proyecto (SQL Server)
 
 Create Database PantherShop
 Go
